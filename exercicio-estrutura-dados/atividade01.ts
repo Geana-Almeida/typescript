@@ -31,25 +31,21 @@ while(res != 0){
             console.log("\nFila:")
             fila.printQueue()
             console.log("\nCliente Adicionado!")
-            break
+            break;
 
         case 2:
             if(fila.isEmpty() === true){
-                console.log("\nPilha está vazia")
-                break
+                console.log("\nFila está vazia")
+                break;
             }
             console.log("\nLista de Clientes na Fila")
             fila.printQueue();
-            break
+            break;
             
         case 3:
-            if(fila.isEmpty() === true){
-                console.log("\nPilha está vazia")
-                break
-            }
             fila.dequeue()
             console.log("\nCliente foi chamado!")
-            break
+            break;
 
         default:
             console.log("\nOpcao inválida");

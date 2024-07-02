@@ -41,10 +41,6 @@ while(res != 0){
             break
             
         case 3:
-            if(pilha.isEmpty() === true){
-                console.log("\nPilha está vazia")
-                break
-            }
             pilha.pop()
             console.log("\nUltimo livro removido.")
             break
